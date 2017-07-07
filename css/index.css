@@ -13,6 +13,7 @@
     opacity: 0;
 }
 .jumbotron {
+    padding-bottom: 100px;
 background: #020031;
 background: -moz-linear-gradient(45deg,#020031 0,#6d3353 100%);
 background: -webkit-gradient(linear,left bottom,right top,color-stop(0%,#020031),color-stop(100%,#6d3353));
@@ -20,7 +21,8 @@ background: -webkit-linear-gradient(45deg,#020031 0,#6d3353 100%);
 background: -o-linear-gradient(45deg,#020031 0,#6d3353 100%);
 background: -ms-linear-gradient(45deg,#020031 0,#6d3353 100%);
 background: linear-gradient(45deg,#020031 0,#6d3353 100%);
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=*#020031*, endColorstr=*#6d3353*, GradientType=1);
+/*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=*#020031*, endColorstr=*#6d3353*, GradientType=1);*/
+
 }
 
 
@@ -38,12 +40,16 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=*#020031*, endCo
              color:white;
            
         }
-       
+       .masthead p .doc {
+           font-size: 14px;
+           color: white;
+       }
         .btn-lg.btn-shadow {
             padding: 13px 35px 17px;
         }
         
         .bc-social-buttons li {
+            
             text-align: center;
             display: inline-block;
             line-height: 1;
