@@ -1,0 +1,27 @@
+.masthead {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .masthead h1 {
+            font-weight: 700;
+            font-size: 100px;
+        }
+
+        .masthead h2 {
+    
+            font-weight: 200;
+            line-height: 1.25;
+        }
+        .jumbotron a {
+            transition: all .2s ease-in-out;
+        }
+        .btn-lg.btn-shadow {
+            padding: 13px 35px 17px;
+        }
+        
+        .bc-social-buttons li {
+            text-align: center;
+            display: inline-block;
+            line-height: 1;
+            color: #555;
+        }
