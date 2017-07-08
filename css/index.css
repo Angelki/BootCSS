@@ -89,3 +89,27 @@
         .bc-social  .bc-social-buttons  .social-weibo .red:hover {
                 color:red;
         }
+
+.projects-header {
+    text-align: center;
+}
+
+.projects .thumbnail {
+    max-width: 310px;
+    height: 336px;
+}
+/*设定最大宽度max-width 而不是宽度*/
+
+/*.thumbnail{
+    width: 300px;
+    height: 336px;
+}*/
+
+.thumbnail img {
+    width: 300px;
+    height: 150px;
+}
+
+.thumbnail .caption {
+    text-align: center;
+}
