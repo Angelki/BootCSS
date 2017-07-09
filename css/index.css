@@ -104,6 +104,8 @@
     border-radius: 0;
 }
 
+
+
 /*设定最大宽度max-width 而不是宽度*/
 
 
@@ -112,6 +114,19 @@
     height: 150px;
 }
 
-/*.thumbnail .caption {
-    text-align: center;
-}*/
+
+.footer {
+    color: #777;
+    padding: 30px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 70px;
+}
+
+.footer-top .about>div h4 {
+    color: #563d7c;
+    font-size: 16px;
+}
+
+.footer a {
+    color: #777;
+}
